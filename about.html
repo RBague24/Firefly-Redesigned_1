@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Firefly of Many Colors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="site-header">
+  <img class="header-butterfly" src="./Media/Fireflycustomimg.png" alt="Butterfly">
+  <h1 class="site-title">Firefly</h1>
+  <p class="site-subtitle">Of Many Colors</p>
+  <img class="cert-logo" src="./Media/CertLogoBackgroundRemoved.png" alt="Certified Health & Wellness Coaching Logo">
+</header>
+
+<!-- ── NAVBAR ── -->
+<nav class="site-nav">
+  <div class="nav-wrapper">
+    <span style="color:var(--gold);font-size:1.1rem;font-family:'Adios Script Pro',cursive;">🦋 Firefly</span>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── ABOUT HERO ── -->
+<section class="about-hero">
+  <div class="container-sm">
+    <hr class="section-divider center" style="margin-bottom:1.5rem;">
+    <h1>About Firefly</h1>
+    <hr class="section-divider center">
+    <p>Firefly is a protocol of health and well-being coaching — the most thoroughly tested coaching protocol in the healthcare domain, resulting in positive, statistically significant outcomes across 22 peer-reviewed studies.</p>
+    <p style="margin-top:1rem;">Our coaching is creative, science-based, and has a high impact on our clients to connect, create, grow, and thrive.</p>
+    <p style="margin-top:1rem;">The goal is to focus on stress which impacts many areas of our lives: interpersonal relationships, nutrition, exercise, and work. We partner with you to explore the tools you already possess to achieve your goals.</p>
+  </div>
+</section>
+
+<!-- ── MARY WILSON BIO ── -->
+<section class="bio-section">
+  <div class="bio-grid">
+    <div>
+      <img class="bio-img" src="./Media/Resized_20240506_093306.jpg" alt="Mary Wilson, Health & Wellness Coach">
+    </div>
+    <div class="bio-content">
+      <h1>About Mary Wilson</h1>
+      <hr class="section-divider">
+      <p>"I am a medical social worker with over 30 years of experience, having lived and worked on both the East and West Coasts, which has enriched my perspective and strengthened my skill set. I hold a Master of Education (M.Ed.) and a Bachelor of Social Work (BSW).</p>
+      <p>I have always had a passion for health and fitness. In my youth I ran track, played basketball, soccer, tennis and was an equestrian. Presently, I weight train, practice Pilates, Barre, Spin and Yoga.</p>
+      <p>After a life-changing event, I wanted to continue helping others but in a less intense environment. I decided to transition my desire to align with my lifelong passion of fitness — for me, fitness embodies the physical, mental, and spiritual.</p>
+      <p>My health and fitness coaching focuses on all aspects of a person's wellbeing, rooted in helping clients explore the stress in their lives: work, interpersonal relationships, finances, health &amp; fitness, and self-esteem.</p>
+      <p>Working with me will be a journey in self-exploration and discovery. My coaching will help you realize that you possess the tools within to accomplish your goals and create the life that you dream."</p>
+      <span class="bio-credentials">Mary Wilson BSW, M.Ed., CHWC</span>
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule">
+
+<!-- ── HAYDEN DUGAN BIO ── -->
+<section class="bio-section alt">
+  <div class="bio-grid reverse">
+    <div>
+      <img class="bio-img" src="./Media/Hayden.jpg" alt="Hayden Dugan, Functional Nutritional Therapy Practitioner">
+    </div>
+    <div class="bio-content">
+      <h1>About Hayden Dugan</h1>
+      <hr class="section-divider">
+      <p>"I'm Hayden, a Functional Nutritional Therapy Practitioner. My mission is to help you do what your parents couldn't optimize — and establish the blueprint for your children to follow."</p>
+      <p>Hayden brings a deep commitment to personalized, evidence-based nutrition therapy, helping clients understand the root causes of their health challenges and empowering lasting change through food and lifestyle.</p>
+      <span class="bio-credentials">Hayden Dugan FNTP — Functional Nutritional Therapy Practitioner</span>
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule">
+
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <span>© 2026 Firefly of Many Colors, Inc.</span>
+  <img class="butterfly-sm" src="./Media/Fireflycustomimg.png" alt="Firefly">
+  <nav style="display:flex;gap:1.5rem;">
+    <a href="index.html" style="color:var(--text-muted);text-decoration:none;">Home</a>
+    <a href="about.html" style="color:var(--text-muted);text-decoration:none;">About</a>
+    <a href="services.html" style="color:var(--text-muted);text-decoration:none;">Services</a>
+    <a href="contact.html" style="color:var(--text-muted);text-decoration:none;">Contact</a>
+  </nav>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('nav-links').classList.toggle('open');
+}
+</script>
+</body>
+</html>
